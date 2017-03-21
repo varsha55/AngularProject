@@ -1,0 +1,48 @@
+[
+{"username":"qq","firstname":"qq","lastname":"qq","email":"qq@dsfw","password":"ww","phone":"14235","location":"qweqw"},
+{"username":"we","firstname":"ww","lastname":"ww","email":"ww@ddd","password":"ww","location":"ww"},
+{"username":"wr","firstname":"ww","lastname":"ww","email":"ww@ddd","password":"ww","location":"ww"}
+{"username":"wt","firstname":"ww","lastname":"ww","email":"ww@ddd","password":"ww","location":"ww"}
+]
+
+[
+        {
+            "recipient":"Arun",
+            "recipient_img":"http://simpleicon.com/wp-content/uploads/user1.png",
+            "sender":"Nanda",
+            "sender_img":"http://simpleicon.com/wp-content/uploads/user1.png",
+            "title":"This is a sample message to Arun.",
+            "description":"This is a sample description to the message which has the above title",
+            "created_at":"2017-01-19 09:45:00",
+            "important":"0"
+        },
+		{
+            "recipient":"Varsha",
+            "recipient_img":"http://simpleicon.com/wp-content/uploads/user1.png",
+            "sender":"Nanda",
+            "sender_img":"http://simpleicon.com/wp-content/uploads/user1.png",
+            "title":"This is a sample message to Arun.",
+            "description":"This is a sample description to the message which has the above title",
+            "created_at":"2017-01-19 09:45:00",
+            "important":"0"
+        },{
+            "recipient":"Nancy",
+            "recipient_img":"http://simpleicon.com/wp-content/uploads/user1.png",
+            "sender":"Nanda",
+            "sender_img":"http://simpleicon.com/wp-content/uploads/user1.png",
+            "title":"This is a sample message to Arun.",
+            "description":"This is a sample description to the message which has the above title",
+            "created_at":"2017-01-19 09:45:00",
+            "important":"0"
+        },
+		{
+            "recipient":"Jane",
+            "recipient_img":"http://simpleicon.com/wp-content/uploads/user1.png",
+            "sender":"Nanda",
+            "sender_img":"http://simpleicon.com/wp-content/uploads/user1.png",
+            "title":"This is a sample message to Arun.",
+            "description":"This is a sample description to the message which has the above title",
+            "created_at":"2017-01-19 09:45:00",
+            "important":"0"
+        }
+]

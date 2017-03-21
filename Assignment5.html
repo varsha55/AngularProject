@@ -1,0 +1,39 @@
+    <html>
+        <head>
+         <script src="https://code.angularjs.org/1.5.5/angular.min.js"></script>
+        <script src="https://code.angularjs.org/1.5.5/angular-route.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/ngStorage/0.3.11/ngStorage.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">  
+            <script src="app1.js"></script>
+        </head>
+            <body ng-app="myApp">
+                <!--<h1>Welcome Guys</h1>
+                <a ng-hide="check()"  href='#/login'>Login</a>|
+                <a href='#/signup'>SignUp</a>|
+                <a href='#/profile'>Profile</a>|
+                <a href='#/message'>Message</a>|
+                <a href='Assignment5.html'>Logout</a>-->
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-9 col-md-offset-1">
+                             <div ng-view=''>
+                                 
+                                  
+                            </div>
+                        </div>
+                    
+                    </div>
+                
+                </div>
+                 
+
+
+
+
+            </body>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    </html>

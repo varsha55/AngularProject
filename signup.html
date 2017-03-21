@@ -1,0 +1,64 @@
+<!--<div ng-controller="signupcontroller" >
+    UserName
+    <p><input type="text" ng-model="username" id="un" name="username" pattern="^[a-zA-Z0-9]+$" title="Only Alphabets"></p>
+    
+    Firstname
+    <p><input type="text" ng-model="firstname" id="fn" name="firstname" pattern="^[a-zA-Z]+$" title="Only Alphabets"></p>
+    
+    Lastname
+    <p><input type="text" ng-model="lastname" id="ln" name="lastname" pattern="^[a-zA-Z]+$" title="Only Alphabets"></p>
+   
+        
+    Email
+    <p><input type="email" ng-model="email" id="em" name="email"  title="Please enter a valid email"></p>
+    
+     Password
+    <p><input type="password" ng-model="password" id="ps" name="password"  title="Six or more characters"></p>
+    
+    Phone
+    <p><input type="text" ng-model="phone" id="ph" name="phone" pattern="[0-9]+$" title="Numbers only"></p>
+    
+        
+    Location
+    <p><input type="text" ng-model="location" id="loc" name="location" pattern="^[a-zA-Z]+$" title="Only Alphabets"></p>
+    
+    <p><input type="submit" ng-click="register()" value="Register"></p>
+</div>-->
+
+<div class="container">
+    <div ng-controller="signupcontroller">
+        <h2>
+            {{title}}<!--here Registration form shows up-->
+            <form name="form" class="form-group">
+                UserName:<input class="form-control" type="text" name="username" ng-model="username"
+                required="required" />
+                Password:<input class="form-control" type="password" name="password" ng-model="password"
+                required="required" />
+                Firstname:<input class="form-control" type="text" name="firstname" ng-model="firstname"
+                required="required" />
+                Lastname:<input class="form-control" type="text" name="lastname" ng-model="lastname"
+                required="required" />
+                Email:<input class="form-control" type="email" name="email" ng-model="email"
+                required="required" />
+                Phone-no:<input class="form-control" type="number" name="phone" ng-model="phone"
+                required="required" />
+                Location:<input class="form-control" type="text" name="loc" ng-model="loc"
+                required="required" />
+                <button class="btn btn-success" ng-click="register()" ng-disabled="form.$invalid">Create</button>
+<!-- $invalid everything is typed and filled correctly-->
+                
+                
+            
+            
+            
+            </form>
+        
+        </h2>
+    
+    
+    
+    
+    
+    
+    </div>
+</div>

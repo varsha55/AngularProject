@@ -1,0 +1,53 @@
+<!--<div>
+    UserName
+    <p><input type="text" ng-model="username" name="username" pattern="^[a-zA-Z0-9]+$" title="Only Alphabets"></p>
+    
+    Firstname
+    <p><input type="text" ng-model="firstname" name="firstname" pattern="^[a-zA-Z]+$" title="Only Alphabets"></p>
+    
+    Lastname
+    <p><input type="text" ng-model="lastname" name="lastname" pattern="^[a-zA-Z]+$" title="Only Alphabets"></p>
+   
+        
+    Email
+    <p><input type="email" ng-model="email" name="email"  title="Please enter a valid email"></p>
+    
+     Password
+    <p><input type="password" ng-model="password" name="password"  title="Six or more characters"></p>
+    
+    Phone
+    <p><input type="text" ng-model="phone" name="phone" pattern="[0-9]+$" title="Numbers only"></p>
+    
+        
+    Location
+    <p><input type="text" ng-model="location" name="location" pattern="^[a-zA-Z]+$" title="Only Alphabets"></p>
+    
+    <p><input type="submit" ng-click=submit() value="Submit"></p>
+</div>-->
+    <div ng-controller="profilecontroller"> 
+    
+    <nav class="navbar navbar-default"> 
+        <a href="#/home">HOME</a>|
+        <a href="#/profile">PROFILE</a>|
+        <a href="#/messages">MESSAGES</a>|
+        <a href="#/logout">LOGOUT</a> 
+    </nav>
+        <h2>Your Profile</h2> 
+    <table class="table table-striped"> 
+     <tr > 
+        <tr><td>
+            UserName: <input type="text" name = "username" id="uname_text" ng-model="username"  disabled/>
+
+    </td> </tr>
+    
+    
+    <tr><td>FirstName: <input type="text" name = "firstName" ng-model="firstname" id="fname_txt"  disabled /></td> </tr>
+    <tr><td> LastName: <input type="text" name = "lastName" ng-model="lastname" id="lname_txt"  disabled/></td> </tr>
+    <tr><td> E-mail: <input type="email" name = "email" ng-model="email" id="email_txt"  disabled/></td> </tr>
+        <tr><td>Password: <input type="password" name = "password" ng-model="password" id="pname_text"  disabled /></td></tr>
+    <tr><td> Phone-Number: <input type="text" name = "phoneno" ng-model="phone" id="phone_txt"  disabled/></td> </tr>
+    <tr><td> Location: <input type="text" name = "location" ng-model="location" id="location_txt"  disabled/> </td> </tr>
+    <td id="profileTR"><input id ="btn_profile" type="button" ng-click="edit()" value="EDIT"/></td>
+    </tr> 
+    </table> 
+    </div>

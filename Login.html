@@ -1,0 +1,18 @@
+<!--<div ng-controller="logincontroller">
+    <a href='#/login'>Login</a>|
+        <a href='#/signup'>SignUp</a>
+<p>UserName: <input type="text" ng-model="username" /> </p> 
+Password: <input type="password" ng-model="password" /> 
+<p><button ng-click="clicked()">Click</button></p>
+</div>-->
+<div ng-controller="logincontroller">
+    
+<form action = "/login" id ="mylogin" class="form-group-lg">
+    UserName:<input type="text" ng-model="username" id="username" class="form-control" />
+    Password:<input type="password" ng-model="password" id="password" class="form-control" />
+    <button class="btn btn-success" type="button" ng-click="clicked()">Login</button>
+    <button class="btn btn-primary" type="button" ng-click="signup()">Signup</button>
+    
+    </form>
+    
+</div>

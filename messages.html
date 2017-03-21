@@ -1,0 +1,22 @@
+<div class="container" ng-controller="messagecontroller">
+    <nav class="navbar navbar-default"> 
+    
+    <a href="#/profile">PROFILE</a>|
+    <a href="#/messages">MESSAGES</a>|
+    <a href="#/logout">LOGOUT</a> 
+</nav> 
+    <button class="btn btn-success" ng-click="compose()" >Compose</button>
+<table class="table table-striped">
+    <tr > 
+        
+        <td class="text-justify"><strong>Sender</strong></td>
+        <td class="text-justify"><strong>Subject</strong></td>
+        <td class="text-justify"><strong>Date</strong></td>
+    </tr>
+    <tr ng-repeat='message in messages'>
+        <td class="text-justify">{{message.sender}}</td>
+        <td class="text-justify"><a href='#/messages/{{message.id}}'>{{message.description}}</a></td>
+        <td class="text-justify">{{message.created_at}}</td>
+    </tr>
+</table>
+    </div>

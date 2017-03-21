@@ -1,0 +1,22 @@
+<div ng-controller="detailcontroller">
+<nav class="navbar navbar-default"> 
+    
+    <a href="#/profile">PROFILE</a>|
+    <a href="#/messages">MESSAGES</a>|
+    <a href="#/logout">LOGOUT</a> 
+</nav> 
+<div class="container-fluid">
+<div class="list-group">
+<div class="list-group-item"><strong>Subject:</strong> {{message.description}}</div>
+<div class="list-group-item"><strong>Sender:</strong> {{message.sender}}</div>
+<div class="list-group-item"><strong>Date:</strong> {{message.created_at}}</div>
+<div class="list-group-item">
+    <strong>To:</strong>
+    <span ng-repeat='recipient in message.recipient'>{{recipient}} </span></div>
+
+    <div class="list-group-item text-justify">{{message.message}}</div>
+    <a href='#/messages'><button type="button" class="btn btn-primary"> Back to message list</button></a>
+    </div>
+
+    </div>
+    </div>
